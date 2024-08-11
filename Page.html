@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proefopdracht</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="Img\notice_branded_media_logo.jpg" type="image/x-icon">    
+    </head>
+
+    <body>
+
+        <div class="fixed-container">
+
+            <div class="table-container">
+                <table id="Flight-table">
+                    <thead>
+                        <tr>
+                            <th>Tijd</th>
+                            <th>Bestemming</th>
+                            <th>Vlucht</th>
+                            <th>Maatschappij</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody> <!-- Normaly the tbody would be filled with the information pulled from the api. -->
+                        <tr>
+                            <td>16:20</td>
+                            <td>DUBAI (DXB)</td>
+                            <td>AF 8423</td>
+                            <td>AIR FRANCE</td>
+                            <td>VERTROKKEN</td>
+                        </tr>
+                        <tr>
+                            <td>18:00</td>
+                            <td>Paramaribo (PBM)</td>
+                            <td>PY 993</td>
+                            <td>Surinam Airways</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>18:10</td>
+                            <td>London Luton (LTN)</td>
+                            <td>EZY 2160</td>
+                            <td>EasyJet</td>
+                            <td>Gate Sluit</td>
+                        </tr>
+                        <tr>
+                            <td>19:00</td>
+                            <td>Cairo (CAI)</td>
+                            <td>MS 758</td>
+                            <td>Egypt Air</td>
+                            <td>Vertrokken</td>
+                        </tr>
+                        <tr>
+                            <td>19:22</td>
+                            <td>Kos (KGS)</td>
+                            <td>OR 265</td>
+                            <td>TUI Fly</td>
+                            <td>Gate Veranderd</td>
+                        </tr>
+                        <tr>
+                            <td>19:39</td>
+                            <td>Hurghada (HRG)</td>
+                            <td>CND 217</td>
+                            <td>Corendon Dutch Airlines</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>19:50</td>
+                            <td>Lyon (LYS)</td>
+                            <td>AF 8291</td>
+                            <td>Air France</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>20:00</td>
+                            <td>Dublin (DUB)</td>
+                            <td>SU 3406</td>
+                            <td>Aeroflot</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>20:10</td>
+                            <td>Belfast City Airport (BHD)</td>
+                            <td>SU 3406</td>
+                            <td>Air France</td>
+                            <td>Boarden Gestart</td>
+                        </tr>
+                        <tr>
+                            <td>20:18</td>
+                            <td>Birmingham (BHX)</td>
+                            <td>AF 8237</td>
+                            <td>Flybe</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>20:30</td>
+                            <td>Madrid (MAD)</td>
+                            <td>IB 3720</td>
+                            <td>Iberia</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>20:45</td>
+                            <td>Rome (FCO)</td>
+                            <td>AZ 423</td>
+                            <td>Alitalia</td>
+                            <td>Vertrokken</td>
+                        </tr>
+                        <tr>
+                            <td>21:00</td>
+                            <td>New York (JFK)</td>
+                            <td>DL 74</td>
+                            <td>Delta Airlines</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>21:15</td>
+                            <td>Sydney (SYD)</td>
+                            <td>QF 2</td>
+                            <td>Qantas</td>
+                            <td>Gate Veranderd</td>
+                        </tr>
+                        <tr>
+                            <td>21:30</td>
+                            <td>Tokyo (NRT)</td>
+                            <td>JL 44</td>
+                            <td>Japan Airlines</td>
+                            <td>Boarden Gestart</td>
+                        </tr>
+                        <tr>
+                            <td>21:45</td>
+                            <td>Hong Kong (HKG)</td>
+                            <td>CX 270</td>
+                            <td>Cathay Pacific</td>
+                            <td>Vertrokken</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>Paris (CDG)</td>
+                            <td>AF 1447</td>
+                            <td>Air France</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>22:15</td>
+                            <td>Berlin (TXL)</td>
+                            <td>LH 1998</td>
+                            <td>Lufthansa</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>22:30</td>
+                            <td>Vienna (VIE)</td>
+                            <td>OS 376</td>
+                            <td>Austrian Airlines</td>
+                            <td>Gate Sluit</td>
+                        </tr>
+                        <tr>
+                            <td>22:45</td>
+                            <td>Zurich (ZRH)</td>
+                            <td>LX 739</td>
+                            <td>Swiss</td>
+                            <td>Vertrokken</td>
+                        </tr>
+                        <tr>
+                            <td>23:00</td>
+                            <td>Istanbul (IST)</td>
+                            <td>TK 1954</td>
+                            <td>Turkish Airlines</td>
+                            <td>Gate Veranderd</td>
+                        </tr>
+                        <tr>
+                            <td>23:15</td>
+                            <td>Dubai (DXB)</td>
+                            <td>EK 150</td>
+                            <td>Emirates</td>
+                            <td>Boarden Gestart</td>
+                        </tr>
+                        <tr>
+                            <td>23:30</td>
+                            <td>Doha (DOH)</td>
+                            <td>QR 274</td>
+                            <td>Qatar Airways</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>23:45</td>
+                            <td>Abu Dhabi (AUH)</td>
+                            <td>EY 78</td>
+                            <td>Etihad Airways</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>00:00</td>
+                            <td>Sao Paulo (GRU)</td>
+                            <td>JJ 8085</td>
+                            <td>LATAM Airlines</td>
+                            <td>Gate Sluit</td>
+                        </tr>
+                        <tr>
+                            <td>00:15</td>
+                            <td>Los Angeles (LAX)</td>
+                            <td>UA 949</td>
+                            <td>United Airlines</td>
+                            <td>Vertrokken</td>
+                        </tr>
+                        <tr>
+                            <td>00:30</td>
+                            <td>Chicago (ORD)</td>
+                            <td>AA 89</td>
+                            <td>American Airlines</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>00:45</td>
+                            <td>Toronto (YYZ)</td>
+                            <td>AC 875</td>
+                            <td>Air Canada</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>01:00</td>
+                            <td>Miami (MIA)</td>
+                            <td>BA 209</td>
+                            <td>British Airways</td>
+                            <td>Gate Veranderd</td>
+                        </tr>
+                        <tr>
+                            <td>01:15</td>
+                            <td>Lisbon (LIS)</td>
+                            <td>TAP 1059</td>
+                            <td>TAP Portugal</td>
+                            <td>Boarden Gestart</td>
+                        </tr>
+                        <tr>
+                            <td>01:30</td>
+                            <td>Moscow (SVO)</td>
+                            <td>Aeroflot</td>
+                            <td>SU 2606</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>01:45</td>
+                            <td>Singapore (SIN)</td>
+                            <td>SQ 327</td>
+                            <td>Singapore Airlines</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>02:00</td>
+                            <td>Bangkok (BKK)</td>
+                            <td>THAI 932</td>
+                            <td>Thai Airways</td>
+                            <td>Gate Sluit</td>
+                        </tr>
+                        <tr>
+                            <td>02:15</td>
+                            <td>Seoul (ICN)</td>
+                            <td>KE 908</td>
+                            <td>Korean Air</td>
+                            <td>Vertrokken</td>
+                        </tr>
+                        <tr>
+                            <td>02:30</td>
+                            <td>Kuala Lumpur (KUL)</td>
+                            <td>MH 19</td>
+                            <td>Malaysia Airlines</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>02:45</td>
+                            <td>Johannesburg (JNB)</td>
+                            <td>SA 235</td>
+                            <td>South African Airways</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>03:00</td>
+                            <td>Dubai (DXB)</td>
+                            <td>EK 151</td>
+                            <td>Emirates</td>
+                            <td>Gate Veranderd</td>
+                        </tr>
+                        <tr>
+                            <td>03:15</td>
+                            <td>Muscat (MCT)</td>
+                            <td>WY 153</td>
+                            <td>Oman Air</td>
+                            <td>Boarden Gestart</td>
+                        </tr>
+                        <tr>
+                            <td>03:30</td>
+                            <td>Riyadh (RUH)</td>
+                            <td>SV 210</td>
+                            <td>Saudia</td>
+                            <td>Op Schema</td>
+                        </tr>
+                        <tr>
+                            <td>03:45</td>
+                            <td>Jeddah (JED)</td>
+                            <td>SV 206</td>
+                            <td>Saudia</td>
+                            <td>Gate Geopend</td>
+                        </tr>
+                        <tr>
+                            <td>04:00</td>
+                            <td>Doha (DOH)</td>
+                            <td>QR 275</td>
+                            <td>Qatar Airways</td>
+                            <td>Gate Sluit</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="footer">
+                <div class="blue-bar">
+                    <div class="clock-container">
+                        <img src="Img\pngwing.com.png" alt="Clock Icon" class="clock-icon">
+                        <span id="time"></span>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                        <div class="page-counter">
+                            Pagina <span id="page-number">1</span> of <span id="total-pages">1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gray-bar"></div>
+
+                <div class="img-container">
+                    <img src="Img\Amsterdam-Schiphol-Airport-logo.jpg" alt="Schiphol Logo" class="logo"> <p class="Vertrek-text">VERTREK</p>
+                </div>
+            </div> 
+        </div>   
+        <script src="index.js"></script>
+      </body>
+</html>

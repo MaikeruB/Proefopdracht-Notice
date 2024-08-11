@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fixed-container {
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 1920px;
+    min-height: 1080px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.blue-bar {
+    max-width: 1920px;
+    height: 50px;
+    background-color: #004f9f;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.clock-container {
+    display: flex;
+    align-items: center;
+}
+
+.clock-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#time {
+    color: white;
+    font-size: 18px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 400px;
+    height: 15px;
+    background-color: #d1e0e5;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background-color: #007bff;
+    transition: width 0.3s;
+}
+
+.page-counter {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #004f9f;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+td {
+    border-bottom: 1px solid #cccccc;
+}
+
+.gray-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Vertrek-text {
+    color: #004f9f;
+    font-size: x-large;
+}
+
+.logo {
+    width: 150px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 1920px;
+}
